@@ -1,0 +1,135 @@
+Name: Recipes
+Type: RecipesCategoryFolder
+Children:
+- Name: Cozedor1
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=7;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=60
+    Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"1bd2344bbfc955efbdf20dd8e148139e","Namespace":12}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: RecipeSchema1
+    Type: RecipeSchema
+    Children:
+    - Name: Root
+      Type: BaseObjectType
+    - Class: Reference
+      Target: ns=7;i=27
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=33
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=31
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=44
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=35
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=37
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=76
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=53
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=62
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=55
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=58
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=60
+      Direction: Forward
+    - Name: TargetNode
+      Type: NodePointer
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+    - Name: Timeout
+      Type: BaseDataVariableType
+      DataType: Duration
+      Value: "0:00:00:30.0000000"
+    - Name: Store
+      Type: NodePointer
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":1,"Namespace":4}
+    - Name: StoreChanged
+      Type: VariableChangedEventDispatcher
+      Children:
+      - Name: VariableNodePath
+        Type: BaseVariableType
+        DataType: NodePath
+        Value: "../Store@Pointer"
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"62155ead9c95d34b4039f23324b2593e","Namespace":12}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":4}
+  - Name: EditModel
+    Id: g=3fbf39a2be4e3cc4f726bac5c628fb44
+    Type: BaseObjectType

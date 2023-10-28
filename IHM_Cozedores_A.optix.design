@@ -1,0 +1,27 @@
+Project:
+ Name: IHM_Cozedores_A_Design
+ ProjectNamespaceIndex: 6
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.2
+ CoreVersion: 2.0
+ Dependencies:
+  2:
+   Uri: IHM_Cozedores_A
+   RelativePath: IHM_Cozedores_A.optix
+  3:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 2.1
+  4:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  5:
+   Uri: 'urn:FTOptix:RAEtherNetIPTagImporter'
+   Module: FTOptix.RAEtherNetIPTagImporter
+   Version: 1.0
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/TagImporter.yaml
